@@ -54,6 +54,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="minimumTrackTintColor" red="0.90698366119999996" green="0.90698366119999996" blue="0.90698366119999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="thumbTintColor" red="0.90698366119999996" green="0.90698366119999996" blue="0.90698366119999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="colorViewChange:" destination="BYZ-38-t0r" eventType="valueChanged" id="xPM-Br-a01"/>
+                                </connections>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="花惹發～～" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QWJ-0m-fhh">
                                 <rect key="frame" x="142" y="48" width="110" height="26"/>
@@ -84,7 +87,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Red" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JUE-KF-SBT">
-                                <rect key="frame" x="49" y="405" width="75" height="29"/>
+                                <rect key="frame" x="49" y="414" width="75" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="24"/>
                                 <color key="textColor" red="1" green="0.35152199540000001" blue="0.28111004490000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
